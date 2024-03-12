@@ -39,5 +39,6 @@ public class CategoriaServiceImpl implements CategoriaService {
     @Override
     @Transactional
     public void delete(Categoria categoria) {
+        categoriaDao.delete(categoria);
     }
 }

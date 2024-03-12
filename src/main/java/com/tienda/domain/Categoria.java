@@ -27,5 +27,7 @@ public class Categoria implements Serializable { //serializacion porque se va al
         this.descripcion = descripcion;
         this.activo = activo;
     }
+    
+    
 
 }
